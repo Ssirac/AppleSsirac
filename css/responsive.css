@@ -1,0 +1,331 @@
+/* responsiv */
+
+@media only screen and (max-width:768px) {
+    .container {
+        width: 95% !important
+    }
+
+    .navbar ul {
+        display: none !important;
+        align-items: start !important;
+        justify-content: unset !important;
+    }
+
+    .nav_icon .menu_icon {
+        display: inline !important;
+        padding-top: 6px;
+    }
+
+    #icon:checked~ul {
+        display: flex !important;
+        position: fixed;
+        text-align: start;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 40px;
+        z-index: 999;
+        gap: 15px;
+        overflow-y: auto;
+
+        a {
+            font: 400 20px 'San Francisco', Helvetica, Arial, sans-serif;
+            text-transform: capitalize;
+            color: #000;
+        }
+
+        .icon_x {
+            width: 85%;
+            display: flex !important;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+
+    .page_1 {
+        .learn_more {
+            padding-bottom: 60px;
+        }
+
+        .iphone_titanium {
+            padding: 250px 0 !important;
+            transform: rotate(90deg);
+        }
+    }
+
+    .page2_img_new {
+        height: 30vh;
+    }
+
+    .page3_love {
+        flex-direction: column;
+        padding: 50px 0;
+        text-align: center;
+
+        h2 {
+            font-size: 32px !important;
+        }
+    }
+
+    .page_4_tour_bg {
+        background: none;
+        height: auto;
+
+        .responsiv {
+            background: url("../img/telefoncu.jpg") center/cover;
+            width: 100%;
+            height: 50vh;
+        }
+
+        .page4_contenet {
+            align-items: center;
+            height: fit-content !important;
+            padding: 20px;
+            color: #000 !important;
+
+            h2 {
+                font-size: 28px !important;
+            }
+
+            a {
+                color: #0071e3 !important;
+
+                i {
+                    display: inline !important;
+                    padding-right: 10px !important;
+                }
+            }
+        }
+    }
+
+    .page_5 {
+        h2 {
+            font-size: 32px !important;
+        }
+
+        .card {
+            width: 50% !important;
+        }
+    }
+
+    .page_6 {
+        h2 {
+            text-align: center;
+        }
+
+        .cards_airdrop {
+            display: flex;
+            flex-direction: column;
+            gap: 30px !important;
+
+            .card_airdrop {
+                height: fit-content !important;
+                width: 100% !important;
+                gap: 0 !important;
+                padding: 60px 0 !important;
+
+                img {
+                    width: 80% !important;
+                    padding: 0 !important;
+                }
+            }
+
+            .card_emoji {
+                width: 100% !important;
+                padding: 0 !important;
+
+                p {
+                    margin: 0 !important;
+                }
+            }
+
+            .card_card {
+                width: 100% !important;
+                padding: 0 !important;
+
+                img {
+                    width: 40% !important;
+                }
+            }
+        }
+    }
+
+    .page_7 {
+        height: 60vh !important;
+
+        h2 {
+            font-size: 32px !important;
+            width: 80% !important;
+        }
+
+        p {
+            width: 65% !important;
+        }
+    }
+
+    .page_8 {
+        h2 {
+            font-size: 30px !important;
+            width: 100% !important;
+           
+
+        }
+        .magsafe_content {
+            padding: 20px 0 !important;
+            flex-direction: column;
+
+            .left {
+                h3 {
+                    font-size: 28px !important;
+                }
+            }
+        }
+    }
+
+    .page9_content {
+        padding: 30px 0 !important;
+        flex-direction: column-reverse;
+
+        .airtag_img {
+            img {
+                width: 100%;
+            }
+        }
+
+        .airtag_content {
+            width: 100% !important;
+        }
+    }
+
+    .page_10_content {
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+
+        h2 {
+            font-size: 28px !important;
+        }
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+    .page11_content {
+        .deli_cards {
+            gap: 50px;
+            justify-content: center !important;
+        }
+    }
+
+    .page_12_ {
+
+        .ios_17_content {
+            background: none !important;
+            height: 10vh !important;
+        }
+
+        .ios_17card .simple_cards .privacy_card {
+            flex-direction: column !important;
+
+            .simple_cards {
+                h3 {
+                    font-size: 28px !important;
+                }
+            }
+
+            .privacy_card {
+                h3 {
+                    font-size: 28px !important;
+                }
+            }
+        }
+    }
+
+    .page_13 {
+        .icloud_img {
+            display: none;
+        }
+
+        .one_contenet {
+            width: 100% !important;
+        }
+    }
+}
+
+.footer {
+    hr {
+        display: block !important;
+    }
+
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width:426px) {
+    .page_1 {
+        .iphone {
+            padding: 120px 0 !important;
+        }
+    }
+
+    .iphone_titanium {
+        height: 15vh;
+    }
+
+    .page_11 {
+        .deli_cards {
+
+            flex-direction: column;
+        }
+    }
+
+    .page_14 {
+        .cards {
+            flex-direction: column;
+
+            .card_page14 {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .page_15_bg {
+        .content {
+            flex-direction: column;
+
+            h3 {
+                width: 100% !important;
+                font-size: 28px !important;
+            }
+
+            p {
+                width: 100% !important;
+                font-size: 18px !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .page_5 {
+        .card {
+            width: 100% !important;
+        }
+    }
+
+    .page_7 {
+        height: 50vh !important;
+
+        p {
+            width: 80% !important;
+        }
+    }
+}
